@@ -122,3 +122,5 @@ systemctl restart nginx.service
 
 ### 4.4 测试
 浏览器输入服务器 IP 验证页面是否加载。
+
+如需平滑升级，请参考[upgrade.md](https://github.com/Mooloco/ruoyi-test/blob/main/ux/upgrade.md)
