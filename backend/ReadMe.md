@@ -19,10 +19,10 @@ java -version
 
 如果提示命令不存在，表示尚未安装 JDK。
 
-### 安装 JDK（以 Ubuntu 为例）
+### 安装 JDK（以 CentOS7 为例）
 ```bash
-sudo apt update
-sudo apt install openjdk-8-jdk -y
+yum claean all && yum makecache
+yum install java-1.8.0-openjdk java-1.8.0-openjdk-devel -y
 ```
 
 安装完成后再次执行：
@@ -47,7 +47,7 @@ java -version
 
 2. 创建数据库：
    ```sql
-   CREATE DATABASE ry_vue CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+   CREATE DATABASE ry_vue;
    ```
 
 3. 导入数据：
