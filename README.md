@@ -5,6 +5,7 @@
 系统采用 **Nginx 反向代理 + 多节点服务** 部署，以保证结构清晰、扩展性强。
 
 ---
+<img width="924" height="470" alt="8d73d6130243ff93466f8125b39490eb" src="https://github.com/user-attachments/assets/cdc57257-80e3-4833-8487-fc52c83a74c8" />
 
 ## 架构拓扑
 
