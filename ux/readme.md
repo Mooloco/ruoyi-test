@@ -91,9 +91,10 @@ systemctl start nginx
 
 ## 3. 配置页面
 ```
-cd /usr/local/nginx/html
-rm -rf index.html
-unzip dist
+    1.进入/usr/local/nginx/html
+    2.将dist压缩包导入
+    3.rm -rf index.html     删除原index
+    4.unzip dist.rar解压，确保解压后的dist.rar的内容都在/usr/local/nginx/html/里面
 ```
 
 ## 4. Nginx 配置
